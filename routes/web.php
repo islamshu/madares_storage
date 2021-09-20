@@ -49,7 +49,7 @@ Route::group(['middleware' => ['auth'],'prefix' => 'dashbaord'], function() {
 
    
     Route::get('/', function () {
-        return view('layouts.admin');
+        return view('admin.index');
     })->name('admin.dashboard');
 
 
