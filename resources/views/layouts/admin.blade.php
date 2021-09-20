@@ -67,6 +67,7 @@
 
 
 
+    <script src="{{ asset('assets/js/pages/ecommerce/product-detail.js') }}"></script>
 
 
 <script src="{{ asset('assets/js/pages/tables/jquery-datatable.js') }}"></script>
