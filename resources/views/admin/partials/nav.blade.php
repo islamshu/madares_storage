@@ -4,7 +4,7 @@
             <a href="#" onClick="return false;" class="navbar-toggle collapsed" data-bs-toggle="collapse"
                 data-bs-target="#navbar-collapse" aria-expanded="false"></a>
             <a href="#" onClick="return false;" class="bars"></a>
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="{{ route('admin.dashboard') }}">
                 <img src="https://madares-abqary.com/uploads/site_logo/7KlIYLEG6UbFTU8N08bl2UR0uwhliCilmAbT9IB9.png" alt="" />
                 {{-- <span class="logo-name"></span> --}}
             </a>
